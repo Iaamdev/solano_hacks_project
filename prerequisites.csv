@@ -1,4 +1,4 @@
-Root Node,Dependent Node,Labels
+Prerequisite Step,Step Name,Duration ( upper bound in minutes )
 Calc I,Calc II,Hard Prerequisite
 Calc II,Calc III,Hard Prerequisite
 Calc III,Prob and Stat I,Soft Prerequisite

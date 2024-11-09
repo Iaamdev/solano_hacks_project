@@ -1,0 +1,15 @@
+Recipe Name,Step Name,Step Description,Prerequisite Step,Subsequent Step,Duration ( lower bound in minutes ),Duration ( upper bound in minutes )
+Simple Fish Preparation,Preheat Oven,"Preheat the oven to 400°F (200°C).",,Prepare Fish,10,15
+Simple Fish Preparation,Prepare Fish,"Season the fish fillets with salt, pepper, and lemon juice.",Preheat Oven,Place Fish in Oven,2,3
+Simple Fish Preparation,Place Fish in Oven,"Place the seasoned fish fillets on a baking sheet and put in the oven.",Prepare Fish,Bake Fish,1,2
+Simple Fish Preparation,Bake Fish,"Bake the fish until it is opaque and flakes easily with a fork.",Place Fish in Oven,Remove Fish from Oven,10,15
+Simple Fish Preparation,Remove Fish from Oven,"Remove the baked fish from the oven and let it rest briefly.",Bake Fish,Serve Fish,1,2
+Simple Fish Preparation,Serve Fish,"Plate the fish fillets for serving.",Remove Fish from Oven,,1,1
+Simple Side Dish (Steamed Vegetables),Prepare Vegetables,"Wash and chop vegetables (e.g., broccoli, carrots, and green beans).",,Boil Water,5,10
+Simple Side Dish (Steamed Vegetables),Boil Water,"Fill a pot with water and bring it to a boil.",Prepare Vegetables,Steam Vegetables,5,10
+Simple Side Dish (Steamed Vegetables),Steam Vegetables,"Place vegetables in a steamer basket over the boiling water.",Boil Water,Season Vegetables,5,7
+Simple Side Dish (Steamed Vegetables),Season Vegetables,"Sprinkle salt and a little olive oil or butter over the steamed vegetables.",Steam Vegetables,Serve Vegetables,1,2
+Simple Side Dish (Steamed Vegetables),Serve Vegetables,"Plate the vegetables alongside the fish for serving.",Season Vegetables,,1,1
+Simple Dessert (Fruit Parfait),Prepare Fruit,"Chop fresh fruits such as strawberries, blueberries, and kiwi.",,Layer Ingredients,3,5
+Simple Dessert (Fruit Parfait),Layer Ingredients,"In serving glasses, layer yogurt, fruits, and a sprinkle of granola.",Prepare Fruit,Serve Parfait,3,5
+Simple Dessert (Fruit Parfait),Serve Parfait,"Place the parfait glasses on the table for serving.",Layer Ingredients,,1,1

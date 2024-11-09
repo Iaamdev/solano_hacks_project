@@ -32,11 +32,15 @@ def create_graph(filename):
     for index, row in pdframe.iterrows():
         root_node = row["Step Name"] # how to use the subsequent step?? Merge somehow
         dependent_node = row["Prerequisite Step"] if pd.notna(row["Prerequisite Step"]) else ""
-        early_finish = row["Duration ( lower bound in minutes )"] if pd.notna(row["Duration ( lower bound in minutes )"]) else ""
-        late_finish = early_finish = row["Duration ( upper bound in minutes )"] if pd.notna(row["Duration ( upper bound in minutes )"]) else ""
-        edge_name = f"{early_finish} - {late_finish} minutes"
+        # early_finish = row["Duration ( lower bound in minutes )"] if pd.notna(row["Duration ( lower bound in minutes )"]) else ""
+        late_finish = row["Duration ( upper bound in minutes )"] if pd.notna(row["Duration ( upper bound in minutes )"]) else ""
+        # edge_name = f"{early_finish} - {late_finish} minutes"
 
-        dir_graph.add_edge(root_node, dependent_node, label=edge_name)
+        # dir_graph.add_edge(root_node, dependent_node, label=edge_name)
+        
+        dir_graph.add_edge(dependent_node, root_node, label=late_finish)
+        
+        
 
     return dir_graph
 
@@ -50,7 +54,8 @@ def main():
     orientation = "top"
     # filename = "prerequisites.csv"
     # filename = "Steak_2 copy.csv"
-    filename = "outputs.txt"
+    filename = "output.csv"
+    # filename = "Fish_Dinner.csv"
 
     dir_graph = create_graph(filename)
 
