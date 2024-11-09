@@ -9,6 +9,7 @@ complete = False
 
 BORDER = "_____________________________________"
 
+
 while not complete:
     # sysrole = "Engineer"
     print(BORDER)
@@ -27,14 +28,23 @@ while not complete:
     )
 
     output = response.choices[0].message.content
+
     print(output)
 
-    data_entry = [[prompt, output]]
-    with open("output.csv", "a+", newline="") as file:
-        writer = csv.writer(file)
-        writer.writerows(data_entry)
+    data_entry = {"Prompt": [prompt], "Output": [output]}
 
-    file_reader = pd.read_csv("output.csv")
+    new_df = pd.DataFrame(data_entry)
+
+    a_df = pd.concat([new_df], ignore_index=True)
+
+    # with open("data_entry.csv", "a+", newline="") as file:
+    # writer = csv.writer(file)
+    # writer.writerows(data_entry)
+
+    a_df.to_csv("request.csv", index=False)
+
+    # responses = pd.Series(output)
+    # responses.to_csv("responses.csv", index=False)
 
     print(BORDER)
 
@@ -42,4 +52,5 @@ while not complete:
     if is_complete == "Y":
         complete = True
     elif is_complete == "N":
+
         pass
