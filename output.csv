@@ -1,30 +1,47 @@
-WHAT IS THE MOST EXPENSIVE CAR ON THE PLANET?,"As of the latest data available, the Bugatti La Voiture Noire holds the title of the most expensive new car ever sold. Released in 2019, this one-off hypercar was priced at approximately $18.7 million, including taxes. The car was designed as a modern interpretation of the classic Bugatti Type 57 SC Atlantic and features a quad-turbocharged 8.0-liter W16 engine, producing 1,479 horsepower. Keep in mind that the market for rare and collectible cars is dynamic, and prices can change over time, especially with auctions or private sales."
-WHAT IS THE BEST CAR?,"Determining the ""best"" car depends on various factors, including personal preferences, needs, budget, and intended use. Some individuals prioritize fuel efficiency, while others look for luxury, performance, or off-road capabilities. Here's a breakdown of some categories and notable cars as of the latest updates:
+You're a pro chef teaching beginners,"I want to make pork, a side dish, and a drink.","Here's a simple yet delicious recipe set for pork chops, garlic mashed potatoes as a side dish, and a refreshing lemonade:
 
-1. **Sedan:**
-   - **Toyota Camry:** Known for reliability and fuel efficiency.
-   - **Honda Accord:** Praised for its balance of comfort and performance.
+```
+Recipe Name,Step Name,Step Description,Prerequisite Step,Subsequent Step,Duration ( lower bound in minutes ),Duration ( upper bound in minutes )
+Pork Chops,Prepare Pork,""Take pork chops out of the fridge and allow them to come to room temperature."",,Season Pork,20,30
+Pork Chops,Season Pork,""Pat the pork chops dry, then season both sides with salt, pepper, and your preferred herbs."",Prepare Pork,Heat Pan,2,3
+Garlic Mashed Potatoes,Peel Potatoes,""Peel potatoes and cut into evenly sized chunks for boiling."",,Boil Potatoes,5,10
+Lemonade,Prepare Lemons,""Roll the lemons on a countertop to soften, then cut them in half."",,Juice Lemons,3,5
+Pork Chops,Heat Pan,""Heat a large frying pan over medium-high heat."",Season Pork,Add Oil,3,5
+Garlic Mashed Potatoes,Boil Potatoes,""Place potato chunks in a pot of salted water, bring to boil."",Peel Potatoes,Boil and Check,15,20
+Lemonade,Juice Lemons,""Squeeze lemon halves to extract juice into a pitcher."",Prepare Lemons,Combine Ingredients,5,5
+Pork Chops,Add Oil,""Add a little olive oil to the hot pan."",Heat Pan,Cook Pork,1,1
+Garlic Mashed Potatoes,Boil and Check,""Check potatoes with a fork; they should be tender."",Boil Potatoes,Drain Potatoes,1,2
+Lemonade,Combine Ingredients,""Add water and sugar to the pitcher with lemon juice and stir until sugar dissolves."",Juice Lemons,Chill Lemonade,2,3
+Pork Chops,Cook Pork,""Place pork chops into the hot pan, cook until golden brown on one side."",Add Oil,Flip Pork,4,5
+Garlic Mashed Potatoes,Drain Potatoes,""Drain the potatoes completely in a colander."",Boil and Check,Mash Potatoes,1,2
+Pork Chops,Flip Pork,""Flip pork chops to the other side, continuing to cook until done to your liking."",Cook Pork,Rest Pork,4,5
+Garlic Mashed Potatoes,Mash Potatoes,""Mash potatoes with butter, cream, roasted garlic, salt, and pepper."",Drain Potatoes,Serve Potatoes,5,7
+Lemonade,Chill Lemonade,""Place the pitcher in the fridge to chill."",Combine Ingredients,Serve Lemonade,15,30
+Pork Chops,Rest Pork,""Remove pork chops from pan, let rest for juices to redistribute."",Flip Pork,Serve Pork,5,10
+Garlic Mashed Potatoes,Serve Potatoes,""Scoop mashed potatoes into a serving dish."",Mash Potatoes,,1,2
+Pork Chops,Serve Pork,""Place pork chops on a plate and serve with side dish."",Rest Pork,,1,2
+Lemonade,Serve Lemonade,""Pour chilled lemonade into glasses with ice."",Chill Lemonade,,1,2
+```
 
-2. **SUV:**
-   - **Toyota RAV4:** Offers great fuel economy and reliability.
-   - **Ford Bronco:** Known for its off-road capabilities.
-
-3. **Luxury:**
-   - **Mercedes-Benz S-Class:** Offers top-of-the-line luxury and technology.
-   - **Tesla Model S:** Combines luxury with electric performance.
-
-4. **Electric:**
-   - **Tesla Model 3:** Popular for its range and performance.
-   - **Ford Mustang Mach-E:** Provides a sporty electric driving experience.
-
-5. **Sports Car:**
-   - **Porsche 911:** Renowned for its performance and handling.
-   - **Chevrolet Corvette:** Offers high performance at a relatively lower price.
-
-6. **Truck:**
-   - **Ford F-150:** Known for its versatility and popularity.
-   - **Ram 1500:** Praised for its comfort and towing capacity.
-
-For the most up-to-date and personalized recommendation, consider your specific needs and check recent reviews and comparisons."
-WHAT IS 2+2?,2 + 2 equals 4.
-WHAT IS 3+3?,3 + 3 equals 6.
+This approach ensures each process is laid out clearly, with steps taken in parallel when possible to maximize efficiency. Happy cooking!"
+You're a pro chef teaching beginners,"I want to make pork, a side dish, and a drink.","```csv
+Recipe Name,Step Name,Step Description,Prerequisite Step,Subsequent Step,Duration ( lower bound in minutes ),Duration ( upper bound in minutes )
+Pork Preparation,Prepare Pork,""Take the pork out of the fridge and let it come to room temperature."",,Season Pork,30,45
+Pork Preparation,Season Pork,""Season all sides of the pork with salt, pepper, and optional herbs."",Prepare Pork,Heat Oven,1,2
+Pork Preparation,Heat Oven,""Preheat the oven to 375°F (190°C)."",,Add Oil to Pan,5,10
+Pork Preparation,Add Oil to Pan,""Add oil to the pan over medium-high heat."",,Sear Pork,1,2
+Pork Preparation,Sear Pork,""Sear the pork on all sides until golden brown."",Add Oil to Pan,Bake Pork,5,7
+Pork Preparation,Bake Pork,""Transfer the pork to the preheated oven and bake until internal temperature reaches 145°F (63°C)."",Sear Pork,Rest Pork,20,25
+Pork Preparation,Rest Pork,""Let the pork rest for 5-10 minutes before slicing."",Bake Pork,Serve Pork,5,10
+Pork Preparation,Serve Pork,""Slice the pork and serve."",Rest Pork,,5,5
+Roasted Vegetable Side Dish,Prepare Vegetables,""Clean and chop vegetables such as carrots, potatoes, and broccoli."",,Season Vegetables,10,15
+Roasted Vegetable Side Dish,Season Vegetables,""Toss the chopped vegetables with olive oil, salt, and pepper."",Prepare Vegetables,Preheat Oven for Vegetables,5,5
+Roasted Vegetable Side Dish,Preheat Oven for Vegetables,""Ensure oven is preheated to 425°F (220°C)."",,Roast Vegetables,5,10
+Roasted Vegetable Side Dish,Roast Vegetables,""Spread vegetables on a baking sheet and roast until tender."",Preheat Oven for Vegetables,,25,30
+Refreshing Iced Tea,Boil Water,""Bring water to a boil in a kettle or saucepan."",,Steep Tea,5,10
+Refreshing Iced Tea,Steep Tea,""Add tea bags to hot water and steep for 5 minutes."",Boil Water,Add Ice,5,5
+Refreshing Iced Tea,Add Ice,""Fill a pitcher with ice cubes."",,Mix Tea with Ice,1,2
+Refreshing Iced Tea,Mix Tea with Ice,""Pour steeped tea over the ice in the pitcher."",Steep Tea,Add Lemon and Sweetener,1,2
+Refreshing Iced Tea,Add Lemon and Sweetener,""Stir in lemon slices and sweetener to taste."",Mix Tea with Ice,Serve Iced Tea,1,2
+Refreshing Iced Tea,Serve Iced Tea,""Pour tea into glasses and serve."",Add Lemon and Sweetener,,1,2
+```"

@@ -1,0 +1,12 @@
+Recipe Name,Step Name,Step Description,Prerequisite Step,Subsequent Step,Duration
+Cook Steak,Bring Steak to Room Temperature,Let the steak sit out of the fridge to ensure even cooking.,,Season the Steak,15-30 minutes
+Cook Steak,Season the Steak,Season with salt and pepper; let it rest briefly for best flavor absorption.,Bring Steak to Room Temperature,Preheat Your Pan,5-10 minutes
+Cook Steak,Preheat Your Pan,Heat a cast-iron skillet over medium-high heat with oil until hot.,Season the Steak,Sear the Steak,5 minutes
+Cook Steak,Sear the Steak,"Place steak in hot pan, searing 3-4 minutes per side.",Preheat Your Pan,Add Butter and Aromatics,6-8 minutes
+Cook Steak,Add Butter and Aromatics,"Add butter, garlic, and herbs; spoon melted butter over the steak.",Sear the Steak,Check Doneness,2-3 minutes
+Cook Steak,Check Doneness,Use a meat thermometer to check the steak’s internal temperature.,Add Butter and Aromatics,Rest the Steak,1 minute
+Cook Steak,Rest the Steak,"Transfer steak to a plate, cover loosely with foil, and rest.",Check Doneness,Slice and Serve,5-10 minutes
+Cook Steak,Slice and Serve,Slice against the grain and serve.,Rest the Steak,,2 minutes
+Cook Steak,Prepare a Simple Sauce,"Use pan drippings, red wine, and beef stock to make sauce.",Sear the Steak,Slice and Serve,5-7 minutes
+Cook Steak,Prepare Side Dishes,"Roast or boil veggies, ensuring they’re ready when steak is done.",Bring Steak to Room Temperature,Slice and Serve,30-40 minutes
+Cook Steak,Set Table and Prepare Garnishes,Add finishing touches to the table and garnishes.,,Slice and Serve,5 minutes

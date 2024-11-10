@@ -1,0 +1,35 @@
+Prerequisite Step,Step Name,Duration ( upper bound in minutes )
+Calc I,Calc II,Hard Prerequisite
+Calc II,Calc III,Hard Prerequisite
+Calc III,Prob and Stat I,Soft Prerequisite
+Calc III,Linear Alg
+Linear Alg,Advanced Linear Algebra
+Prob and Stat I,Prob and Stat II
+Advanced Linear Algebra
+Prob and Stat II
+Calc I,Intro to Proofs,Soft Prerequisite
+Intro to Proofs,Abstract Algebra
+Abstract Algebra,Advanced Abstract Algebra
+Intro to Proofs,Real Analysis
+Real Analysis,Advanced Real Analysis
+Calc II,Differential Equations
+Differential Equations,Partial Differential Equations
+Linear Alg,Applied Linear Algebra
+Applied Linear Algebra,Computational Linear Algebra
+Prob and Stat I,Statistical Inference
+Statistical Inference,Advanced Statistical Methods
+Calc II,Multivariable Calculus,Hard Prerequisite
+Multivariable Calculus,Vector Calculus
+Vector Calculus,Tensor Calculus
+Calc III,Complex Analysis
+Complex Analysis,Advanced Complex Analysis
+Real Analysis,Measure Theory
+Measure Theory,Functional Analysis
+Intro to Proofs,Number Theory
+Number Theory,Advanced Number Theory
+Abstract Algebra,Commutative Algebra
+Commutative Algebra,Algebraic Geometry
+Differential Equations,Dynamical Systems
+Dynamical Systems,Chaos Theory
+Partial Differential Equations,Wave Equations
+Wave Equations,Advanced PDEs
